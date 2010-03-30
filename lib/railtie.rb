@@ -5,7 +5,7 @@ module Trackable
     railtie_name :trackable
 
     rake_tasks do
-      load "/tasks/tracker.rake"
+      load "tasks/tracker.rake"
     end
   end
 end
